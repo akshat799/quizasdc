@@ -16,6 +16,6 @@ public class TaskTest {
 	public void testAssignTo(){
 		String name = "Akshat Gulati";
 		task.assignTo(name);
-		assertEquals(name,task.getTeamMember);
+		assertEquals(name,task.getTeamMember());
 	}
 }
