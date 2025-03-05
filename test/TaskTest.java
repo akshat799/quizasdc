@@ -18,4 +18,12 @@ public class TaskTest {
 		task.assignTo(name);
 		assertEquals(name,task.getTeamMember());
 	}
+
+	@Test
+	public void testUpdateStatus(){
+		String status = "updated";
+		task.updateStatus(status);
+		assertEquals(task.getStatus(), status);
+	}
+
 }
