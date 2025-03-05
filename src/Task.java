@@ -4,10 +4,12 @@ public class Task {
 
 	public void assignTo(String name){
 		this.teamMember = name;
+		System.out.println("Updated teamMember successfully!");
 	}
 
 	public void updateStatus(String status){
 		this.status = status;
+		System.out.println("Updated status successfully!");
 	}
 
 	public String getTeamMember() {
